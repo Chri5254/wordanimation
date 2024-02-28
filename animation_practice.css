@@ -1,0 +1,112 @@
+/* this is where all of your CSS styles go */
+.mono {
+	font-family: 'monospace;';
+	font-size: 10em;
+	float: left;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+.grid_container {
+	position: absolute;
+	width: 680px;
+	height: 190px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+@keyframes a_fadeOut {
+	0% { opacity: 1; color: darkgreen; }
+	100% {opacity: 0; }
+}
+
+.a {
+	opactiy: 0;
+	animation: a_fadeOut 5s backwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes i_fadeOut {
+	0% { opacity: 1; color: darkgreen; }
+	100% {opacity: 0; }
+}
+
+.i {
+	opactiy: 0;
+	animation: i_fadeOut 5s backwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes n_fadeOut {
+	0% { opacity: 1; color: darkgreen; }
+	100% {opacity: 0; }
+}
+
+.n {
+	opactiy: 0;
+	animation: n_fadeOut 5s backwards;
+	animation-delay: 0.5s;
+}
+
+
+@keyframes r_move {
+    0%, 100% { top: 0px; left: 0px; color: black; }
+	50% { top: 500px; left: 200px; color: #823B25; }
+}
+
+.r {
+	position: relative;
+	animation: r_move 5s alternate cubic-bezier(.5,0,0,1);
+    animation-delay: 1s;
+}
+
+
+@keyframes o_move {
+	0%, 100% { top: 0px; left: 0px; color: black; }
+	50% { top: 500px; left: -100px; color: #B75537; }
+
+}
+
+.o {
+	position: relative;
+	animation: o_move 5s alternate cubic-bezier(.5,0,0,1);
+    animation-delay: 1s;
+}
+
+@keyframes t_move {
+	0%, 100% { top: 0px; left: 0px; color: black; }
+	50% { top: 500px; left: 200px; color: #752006; }
+}
+
+.t {
+	position: relative;
+	animation: t_move 5s alternate cubic-bezier(.5,0,0,1);
+    animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
